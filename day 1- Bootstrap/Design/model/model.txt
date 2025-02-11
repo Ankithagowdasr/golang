@@ -3,3 +3,14 @@ Cars
 
 examples:
 {id:'1' , number:'KA17H4568' , model:'BMW' , class:'Big'}
+
+
+
+day2 
+try npm 
+then npm create vite@latest . -- --template react
+
+React is js based framework for making UI
+
+run npm install
+npm run dev
