@@ -14,3 +14,6 @@ React is js based framework for making UI
 
 run npm install
 npm run dev
+
+in app.jxs
+npm install react-router-dom
