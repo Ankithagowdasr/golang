@@ -9,7 +9,7 @@ examples:
 day2 
 try npm 
 then npm create vite@latest . -- --template react
-
+npm run 
 React is js based framework for making UI
 
 run npm install
