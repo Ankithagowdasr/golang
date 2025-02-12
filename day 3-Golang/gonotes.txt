@@ -14,4 +14,18 @@ import (
 creating a go project
 run : go mod init <project_name>
    -it creates the go.mod file which will handle the dependencies
-to install any external libraries we 
+to install any external libraries we use go install command
+
+to install gin-gonic framework
+     run - go install github.com/gin-gonic/gin@latest
+     istall not work --- go get github.com/gin-gonic/gin@latest
+     go.mod modified and go.sum added
+
+go get github.com/gin-contrib/cors
+
+     go run main.go
+
+then in post man search http://localhost:8080/cars/
+set to post
+select raw , json
+in body type and send
