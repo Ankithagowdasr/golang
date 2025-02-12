@@ -1,29 +1,25 @@
-import Carcreate from "./cars/Carcreate";
-import Carlist from "./cars/Carlist";
-import Carview from "./cars/Carview";
-import Greetings from "./header/Greetings";
-import {BrowserRouter,Routes,Route} from react-router-dom;
+import CarView from "./cars/CarView"
+import CarList from "./cars/CarList"
+import CarCreate from "./cars/CarCreate"
+import {BrowserRouter,Routes,Route} from "react-router-dom";
 
-
-export default function App(){
-  return(
+function App() {
+  return (
     <>
-
       <BrowserRouter>
-         <Routes>
-           <Route path="" element={<Carlist/>}/>
-           <Route path="/car/list" element={<Carlist/>}/>
-           <Route path="/car/create" element={<CarCreate/>}/>
-           <Route path="/car/view" element={<Carview/>}/>
-         </Routes>
+        <Routes>
+            <Route path="" element={<CarList/>}/>
+            <Route path="/list" element={<CarList/>}/>
+            <Route path="/create" element={<CarCreate/>}/>
+            <Route path="/view" element={<CarView/>}/>
+            {/* <Route path="/view" element={<CarView/>}/>
+            <Route path="car/car/view" element={<CarView/>}/>
+            <Route path="car/car/create" element={<CarCreate/>}/> */}
+        </Routes>
       
       </BrowserRouter>
-      <h1><marquee>Car Parking Management</marquee></h1>
-      <Greetings/>
-      {/* <Carcreate/> */}
-      {/* <Carlist/> */}
-      <Carview/>
-
     </>
-  );
+  )
 }
+
+export default App

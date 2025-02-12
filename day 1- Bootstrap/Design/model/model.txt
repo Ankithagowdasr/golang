@@ -17,3 +17,7 @@ npm run dev
 
 in app.jxs
 npm install react-router-dom
+
+day 3 golang
+install check - go version
+ 

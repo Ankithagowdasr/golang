@@ -1,0 +1,17 @@
+go install - go version
+
+runiing go program - go run file.go
+all go source files extension shoulb be .go
+
+basic syntax: 
+Package packagename(main)
+import "fmt" ;->single import
+
+import (
+    "fmt"
+)
+
+creating a go project
+run : go mod init <project_name>
+   -it creates the go.mod file which will handle the dependencies
+to install any external libraries we 

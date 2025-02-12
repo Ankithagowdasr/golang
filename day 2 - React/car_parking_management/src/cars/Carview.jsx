@@ -1,8 +1,10 @@
+import Greetings from "../header/Greetings";
+
 function Carview(){
     return(
         <>
-         {/* <Greetings/> */}
-          <h3><a href="cars_list.html" className="btn btn-light">Go Back</a>View Car</h3>
+         <Greetings/>
+          <h3><a href="/" className="btn btn-light">Go Back</a>View Car</h3>
   <div className="container">
     <div className="form-group mb-3">
       <label htmlfor="number" className="form-label">Car Number:</label>

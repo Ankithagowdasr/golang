@@ -1,7 +1,9 @@
+import Greetings from "../header/Greetings";
+
 function Carlist(){
     return(
         <>
-         {/* <Greetings/> */}
+         <Greetings/>
            <h3>Car List</h3>
     <div className="container">
         <table className="table table-success table-striped">
@@ -20,14 +22,14 @@ function Carlist(){
               <td>KA09asc1231</td>
               <td>Zen</td>
               <td>smallcar</td>
-              <td><a className="btn btn-success" href="car_view.html?id=car1">view</a></td>
+              <td><a className="btn btn-success" href="view">view</a></td>
             </tr>
             <tr>
               <th scope="row">car2</th>
               <td>KA09asc3211</td>
               <td>Beatle</td>
               <td>hatchback</td>
-              <td><a className="btn btn-success" href="car_view.html?car2">view</a></td>
+              <td><a className="btn btn-success" href="view">view</a></td>
             </tr>
         </tbody>
         </table>

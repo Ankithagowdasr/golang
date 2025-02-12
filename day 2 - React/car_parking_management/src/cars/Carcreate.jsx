@@ -1,8 +1,10 @@
+import Greetings from "../header/Greetings";
+
 function Carcreate(){
     return(
         <>
-        {/* <Greetings/> */}
-          <h3> <a href="cars_list.html" className="btn btn-light">Go Back</a>Add Car</h3>
+        <Greetings/>
+          <h3> <a href="/" className="btn btn-light">Go Back</a>Add Car</h3>
     <div className="container">
     
       <div className="form-group mb-3">
